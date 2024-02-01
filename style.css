@@ -1,0 +1,65 @@
+@media screen and (max-width: 600px){                                               
+.container{
+    margin: 6vh auto auto auto;                         /* Screen response */
+}   
+
+}
+body{
+    background-color: rgb(14, 10, 10);
+}
+
+.container{
+    background-color: rgb(34, 26, 26);
+    width: 350px;
+    margin: 6vh auto auto auto;
+    border-radius: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+h4{
+    color: yellow;
+    margin: 0px;
+}
+
+button{
+    border: none;
+    color:white;
+    background-color: rgb(48, 40, 40);
+    width: 100%;
+    margin-top: 10px;
+    padding: 13px;
+    border-radius: 14px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: yellowgreen;
+}
+
+.attribution { 
+    margin-top: 18px;
+    font-size: 12px; 
+    text-align: center; 
+    color: white;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
